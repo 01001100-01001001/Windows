@@ -1,4 +1,4 @@
-# 📋 Danh sách Windows Services mặc định khi cài mới Windows 10 22H2 2025  
+# 📋 Danh sách Services mặc định khi cài mới Windows 10 22H2 2025  
 
 Đây là **tài liệu mở rộng** của bài viết gốc tại 👉 [Windows thực sự đang chạy những gì?](https://bachdinh.com/article/windows-thuc-su-dang-chay-nhung-gi).  
 
