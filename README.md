@@ -1,6 +1,8 @@
-# 📋 Danh sách Windows Services
+# 📋 Danh sách Windows Services  
 
-Trong hệ điều hành **Windows**, **Services (dịch vụ)** là các chương trình chạy ngầm (_background processes_),  
+Đây là **tài liệu mở rộng** của bài viết gốc tại 👉 [bachdinh.com](https://bachdinh.com/article/windows-thuc-su-djang-chay-nhung-gi).  
+
+Trong hệ điều hành **Windows**, **Services (dịch vụ)** là các chương trình chạy ngầm (_background processes_)  
 chịu trách nhiệm cho nhiều tính năng hệ thống như:  
 
 - 🌐 Mạng (Network)  
@@ -12,13 +14,10 @@ chịu trách nhiệm cho nhiều tính năng hệ thống như:
 
 ---
 
-## 📑 Bảng dịch vụ
+## 📑 Danh sách dịch vụ theo nhóm
 
-Bảng dưới đây liệt kê một số dịch vụ hệ thống đang có mặt, kèm theo mô tả.  
-Với các dịch vụ chưa có mô tả, bạn có thể bổ sung dần để thuận tiện cho việc tra cứu và quản lý.  
-
-| **Service Name**                                                                    | **Description**                |
-|:------------------------------------------------------------------------------------|:-------------------------------|
-| ActiveX Installer (AxInstSV)                                                        | (Chưa có mô tả - cần bổ sung)  |
-| Agent Activation Runtime_34063                                                      | (Chưa có mô tả - cần bổ sung)  |
-| AllJoyn Router Service                                                              | (Chưa có mô tả - cần bổ sung)  |
+```text
+🔹 Nhóm                🛠️ Service                          📂 Tiến trình/DLL                                📝 Vai trò chính
+System & Logging       Event Log • EventLog                 svchost.exe -k LocalServiceNetworkRestricted      Ghi log hệ thống/ứng dụng/bảo mật → nền tảng cho Event Viewer.
+                       Task Scheduler • Schedule            svchost.exe -k netsvcs                            Chạy tác vụ định kỳ/trigger (Windows Update, backup…).
+                       COM+ Event System • EventSystem      svchost.exe -k LocalService                       Hỗ trợ sự kiện COM+, nền cho SENS và nhiều dịch vụ phụ thuộc.
