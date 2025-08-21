@@ -1,16 +1,6 @@
-# 📋 Danh sách Services mặc định khi cài mới Windows 10 22H2 2025  
+# 📋 Services mặc định khi cài mới Windows 10 22H2 2025  
 
 Đây là **tài liệu mở rộng** của bài viết gốc tại 👉 [Windows thực sự đang chạy những gì?](https://bachdinh.com/article/windows-thuc-su-dang-chay-nhung-gi).  
-
-Trong hệ điều hành **Windows**, **Services (dịch vụ)** là các chương trình chạy ngầm (_background processes_)  
-chịu trách nhiệm cho nhiều tính năng hệ thống như:  
-
-- 🌐 Mạng (Network)  
-- 🔒 Bảo mật (Security)  
-- 🔄 Cập nhật (Update)  
-- 🖨️ In ấn (Printing)  
-- ☁️ Đồng bộ dữ liệu (Data synchronization)  
-- ⚙️ Và nhiều chức năng khác  
 
 ---
 
