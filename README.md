@@ -1,6 +1,6 @@
 # 📋 Danh sách Windows Services  
 
-Đây là **tài liệu mở rộng** của bài viết gốc tại 👉 [bachdinh.com](https://bachdinh.com/article/windows-thuc-su-djang-chay-nhung-gi).  
+Đây là **tài liệu mở rộng** của bài viết gốc tại 👉 [Windows thực sự đang chạy những gì?](https://bachdinh.com/article/windows-thuc-su-dang-chay-nhung-gi).  
 
 Trong hệ điều hành **Windows**, **Services (dịch vụ)** là các chương trình chạy ngầm (_background processes_)  
 chịu trách nhiệm cho nhiều tính năng hệ thống như:  
