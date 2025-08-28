@@ -45,31 +45,28 @@ Script này **can thiệp sâu vào hệ thống** (registry, services, firewall
   Set-ExecutionPolicy RemoteSigned -Scope Process
 
 ## 🚀 Cách sử dụng
-
-### 1. Clone repo
-Đầu tiên, clone repository về máy và chuyển vào thư mục project:
-
-```bash
+🔹 Clone repo
 git clone https://github.com/<your-username>/<repo-name>.git
 cd <repo-name>
-2. Các tham số chính
--Action : Chọn hành động Apply (áp dụng) hoặc Revert (hoàn tác)
 
--DryRun : Chạy thử, chỉ in log mà không áp dụng thay đổi thật
+🔹 Các tham số chính
 
-3. Ví dụ chạy
-🔹 Chạy thử (xem trước thay đổi)
-powershell
-Sao chép
-Chỉnh sửa
+-Action : Apply hoặc Revert
+
+-DryRun : Chạy thử, chỉ in log thay vì áp dụng thật
+
+🔹 Ví dụ chạy
+
+Chạy thử (xem trước thay đổi):
+
 .\BachDinhRM_Aggressive_v1.ps1 -Action Apply -DryRun
-🔹 Áp dụng thay đổi
-powershell
-Sao chép
-Chỉnh sửa
+
+
+Áp dụng thay đổi:
+
 .\BachDinhRM_Aggressive_v1.ps1 -Action Apply
-🔹 Hoàn tác thay đổi
-powershell
-Sao chép
-Chỉnh sửa
+
+
+Hoàn tác thay đổi:
+
 .\BachDinhRM_Aggressive_v1.ps1 -Action Revert
